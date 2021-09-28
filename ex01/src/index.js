@@ -1,5 +1,12 @@
+class Car {
+    constructor(manufacturer, model, production) {
+        this.manufacturer = manufacturer;
+        this.model = model;
+        this.production = production;
+    }
+}
 
-const bmw = new car("BMW", "BMW X3", 2003);
+const bmw = new Car("BMW", "BMW X3", 2003);
 console.log(bmw.manufacturer);
 console.log(bmw.model);
 console.log(bmw.production);
